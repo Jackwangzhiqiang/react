@@ -63,7 +63,7 @@ export default class Login extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    console.log(PropTypes.bool.isRequired)
+    console.log(PropTypes)
     console.log(this.props)
     this.props.form.validateFields(async (err, values) => {
       debugger
